@@ -35,7 +35,7 @@ body {
 
 h1 {
   font-size: var(--fs-h1);
-  line-height: 1em;
+  line-height: 1;
 }
 
 h2 {
@@ -45,7 +45,7 @@ h2 {
 p {
   font-size: var(--fs-p);
   color: var(--clr-dark);
-  line-height: 150%;
+  line-height: 1.5;
 }
 
 /* colors */
