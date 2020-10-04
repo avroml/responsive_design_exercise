@@ -123,7 +123,7 @@ h1 {
 @media (max-width: 800px) {
  
 .section--hero {
-  height: 50vh;
+  height: 70vh;
  } 
  .row {
    display: flex;
@@ -140,4 +140,24 @@ h1 {
      .col--text {
    order: -1;
  }
+}
+
+@media (max-width: 361px) {
+  html {
+    font-size: 40%;
+  }
+  .container {
+    width: 95%;
+  }
+  .section, .section * {
+    padding-left: 0;
+    padding-right: 0;
+    
+  }
+  .section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+    
+  }
 }
