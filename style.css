@@ -3,7 +3,7 @@
 }
 
 :root {
-  font-size: 10px;
+  font-size: 62.5%;
   --clr-light: #f3eed9;
   --clr-darker:#824936;
   --clr-dark: #222c2a;
@@ -118,4 +118,26 @@ h1 {
 .col h2 {
   margin-top: 0;
   padding-top: 0;
+}
+
+@media (max-width: 800px) {
+ 
+.section--hero {
+  height: 50vh;
+ } 
+ .row {
+   display: flex;
+   flex-direction: column;
+ }
+ .col {
+   width: 100%;
+  }
+  
+ .col--img {
+       order: 2;   
+  }
+ 
+     .col--text {
+   order: -1;
+ }
 }
